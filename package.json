@@ -1,0 +1,12 @@
+{
+  "name": "codelife-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CodeLife —— 会自我编程的数字生命模拟世界",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "test:backend": "npm --prefix backend test",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}

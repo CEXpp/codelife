@@ -1,0 +1,24 @@
+# Dependencies & Build Artifacts
+node_modules/
+frontend/dist/
+backend/dist/
+*.tsbuildinfo
+
+# Runtime World Persistence & Snapshots
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Logs & OS / IDE Files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
